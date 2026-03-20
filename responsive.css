@@ -1,0 +1,800 @@
+/**RESPONSIVENESS**/
+@media (max-width:320px) {
+  nav a{
+    padding: 0;
+    font-size: small;
+    }
+    ul.nav{
+    gap: 5px;
+}
+.container{
+    flex-direction: row;
+    width: 100%;
+    margin-top:20px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 100%;
+    font-size: small;
+    order: 2;
+}
+.image-container{
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30% ;
+}
+.my-img{
+   width: 250px;
+   height: 250px;
+}  
+nav {
+    width: 100%;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+    font-size: small;
+}
+.p-text h2{
+margin: 8px 8px 3px 8px;
+padding: 0px 8px;
+}
+.project,
+    .project.reverse{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .project.reverse .p-text{
+        order: 1;
+    }
+
+    .project.reverse .p-picture{
+        order: 2;
+    }
+
+    .p-text,
+    .p-picture{
+        width: 90%;
+        height: auto;
+    }
+
+    .p-picture img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .testimonials-grid{
+    gap: 5px;
+    padding: 10px;
+    }
+    .testimonials-grid{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    gap: 30px;
+    margin: auto;
+    padding: 32px;
+}
+  .headers-grid{
+    font-size: medium;
+  }
+  .grid-description{
+    display: block;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    font-size: small;
+  }
+.grid-card{
+width: 90%;
+height:250px;
+margin: auto;
+
+display: flex;
+flex-direction: column;
+padding-bottom: 20px;
+border:1px solid rgba(255,255,255,0.5
+);
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+border-radius:10px;
+}
+.recent-work{
+  padding: 40px 15px;
+}
+
+.recent-title{
+  font-size: 1.8rem;
+}
+
+.recent-text{
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.work-grid{
+  gap: 20px;
+}
+
+.flip-card{
+  width: 100%;
+  max-width: 320px;
+  height: 240px;
+}
+
+.flip-card-back{
+  padding: 20px;
+  text-align: center;
+}
+
+.flip-card-back h3{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.flip-card-back p{
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.contact-box{
+    width: 100%;
+}
+input, textarea{
+    width: 90%;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+textarea{
+    height: 150px;
+    width: 90%;
+}
+.linkedin-git{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4%;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.linkedin-git:hover, #submit:hover, .project-link:hover{
+    background-color: black;
+    color: white;
+}
+#submit{
+    width: 20%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+.form-control{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+}
+
+
+
+@media (max-width:480px){
+    nav a{
+    padding: 2px 5px;
+    font-size: small;
+    }
+    ul.nav{
+    gap: 5px;
+}
+.container{
+    flex-direction: column;
+    width: 100%;
+    margin-top:20px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 100%;
+    font-size: small;
+    order: 2;
+}
+.image-container{
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30% ;
+}
+.my-img{
+   width: 250px;
+   height: 250px;
+}  
+nav {
+    width: 100%;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+    font-size: small;
+}
+.p-text h2{
+margin: 8px 8px 3px 8px;
+padding: 0px 8px;
+}
+.project,
+    .project.reverse{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .project.reverse .p-text{
+        order: 1;
+    }
+
+    .project.reverse .p-picture{
+        order: 2;
+    }
+
+    .p-text,
+    .p-picture{
+        width: 90%;
+        height: auto;
+    }
+
+    .p-picture img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .testimonials-grid{
+    gap: 5px;
+    padding: 10px;
+    }
+    .testimonials-grid{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    gap: 30px;
+    margin: auto;
+    padding: 32px;
+}
+  .headers-grid{
+    font-size: medium;
+  }
+  .grid-description{
+    display: block;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    font-size: small;
+  }
+.grid-card{
+width: 90%;
+height:250px;
+margin: auto;
+
+display: flex;
+flex-direction: column;
+padding-bottom: 20px;
+border:1px solid rgba(255,255,255,0.5
+);
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+border-radius:10px;
+}
+.recent-work{
+  padding: 40px 15px;
+}
+
+.recent-title{
+  font-size: 1.8rem;
+}
+
+.recent-text{
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.work-grid{
+  gap: 20px;
+}
+
+.flip-card{
+  width: 100%;
+  max-width: 320px;
+  height: 240px;
+}
+
+.flip-card-back{
+  padding: 20px;
+  text-align: center;
+}
+
+.flip-card-back h3{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.flip-card-back p{
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.contact-box{
+    width: 100%;
+}
+input, textarea{
+    width: 90%;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+textarea{
+    height: 150px;
+    width: 90%;
+}
+.linkedin-git{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4%;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.linkedin-git:hover, #submit:hover, .project-link:hover{
+    background-color: black;
+    color: white;
+}
+#submit{
+    width: 20%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+.form-control{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+}
+
+
+@media (max-width:1200px) {
+      nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4px 10px;
+    }
+    ul.nav{
+    gap: 40px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 40%;
+}
+.container{
+    padding: 0 2rem;
+    width: 100%;
+    margin-top: 100px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 40%;
+}
+.image-container{
+    width: 40%;
+    margin:10px 10px;
+}
+
+.my-img{
+   margin-left: 10px;
+   width: 300px;
+   height: 300px;
+}  
+nav {
+    width: 100%;
+}
+.p-picture{
+width: 400px;
+height: 300px;
+border-radius: 10px;
+margin: 20px 0px;
+}
+.p-text{
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+section img{
+width: 400px;
+height: 275px;
+border-radius: 10px;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+}
+.p-text h2{
+margin: 16px 16px 5px 16px;
+padding: 0px 16px;
+}
+.testimonials-grid{
+gap: 10px;
+padding: 16px;
+}
+.g-text{
+word-spacing: 1px;
+letter-spacing: 1px;
+margin-top: 40px;
+}
+.secondary-h2{
+word-spacing: 1px;
+letter-spacing: 1px;
+font-size: large;
+}
+
+
+}
+
+@media (max-width:1024px) {
+    nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4px 10px;
+    }
+    ul.nav{
+    gap: 20px;
+}
+.container{
+    padding: 0 2rem;
+    width: 100%;
+    margin-top: 100px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 40%;
+}
+.image-container{
+    width: 40%;
+    margin:10px 10px;
+}
+
+.my-img{
+   margin-left: 10px;
+   width: 300px;
+   height: 300px;
+}  
+nav {
+    width: 100%;
+}
+.p-picture{
+width: 400px;
+height: 300px;
+border-radius: 10px;
+margin: 20px 0px;
+}
+.p-text{
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+section img{
+width: 400px;
+height: 275px;
+border-radius: 10px;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+}
+.p-text h2{
+margin: 16px 16px 5px 16px;
+padding: 0px 16px;
+}
+.testimonials-grid{
+gap: 10px;
+padding: 16px;
+}
+.g-text{
+word-spacing: 1px;
+letter-spacing: 1px;
+margin-top: 40px;
+}
+.secondary-h2{
+word-spacing: 1px;
+letter-spacing: 1px;
+font-size: large;
+}
+
+}
+@media (max-width:768px){
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4px 10px;
+    }
+    ul.nav{
+    gap: 10px;
+}
+.container{
+    padding: 0 2rem;
+    width: 100%;
+    margin-top: 70px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 40%;
+    font-size: small;
+}
+.image-container{
+    width: 40%;
+    margin:10px 10px;
+}
+
+.my-img{
+   margin-left: 10px;
+   width: 250px;
+   height: 250px;
+}  
+nav {
+    width: 100%;
+}
+.p-picture{
+width: 325px;
+height: 250px;
+border-radius: 10px;
+margin: 20px 0px;
+}
+.p-text{
+    width: 325px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+section img{
+width: 325px;
+height: 250px;
+border-radius: 10px;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+    font-size: small;
+}
+.p-text h2{
+margin: 8px 8px 3px 8px;
+padding: 0px 8px;
+}
+.testimonials-grid{
+gap: 5px;
+padding: 10px;
+}
+.g-text{
+word-spacing: 1px;
+letter-spacing: 1px;
+margin-top: 20px;
+font-size: small;
+}
+.secondary-h2{
+word-spacing: 1px;
+letter-spacing: 1px;
+font-size: small;
+}
+}
+
+/***New 480/ **/ 
+@media (max-width:480px){
+   nav a{
+    padding: 2px 5px;
+    font-size: small;
+    }
+    ul.nav{
+    gap: 5px;
+}
+.container{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:20px;
+}
+.text-container{
+    padding: 0rem;
+    margin-left: 0px;
+    width: 100%;
+    font-size: small;
+    order: 2;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.image-container{
+    order: 1;
+    width: 100%;
+    
+}
+.my-img{
+  display: block;
+   width: 250px;
+   height: 250px;
+  margin: -40px auto;
+   
+}  
+nav {
+    width: 100%;
+}
+.p-text p{
+    margin: 0px 16px;
+    line-height: 1rem;
+    padding: 8px;
+    font-size: small;
+}
+.p-text h2{
+margin: 8px 8px 3px 8px;
+padding: 0px 8px;
+}
+.project,
+    .project.reverse{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .project.reverse .p-text{
+        order: 1;
+    }
+
+    .project.reverse .p-picture{
+        order: 2;
+    }
+
+    .p-text,
+    .p-picture{
+        width: 90%;
+        height: auto;
+    }
+
+    .p-picture img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .testimonials-grid{
+    gap: 5px;
+    padding: 10px;
+    }
+    .testimonials-grid{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 1fr));
+    gap: 30px;
+    margin: auto;
+    padding: 32px;
+}
+  .headers-grid{
+    font-size: medium;
+  }
+  .grid-description{
+    display: block;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    font-size: small;
+  }
+.grid-card{
+width: 90%;
+height:250px;
+margin: auto;
+
+display: flex;
+flex-direction: column;
+padding-bottom: 20px;
+border:1px solid rgba(255,255,255,0.5
+);
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+border-radius:10px;
+}
+.recent-work{
+  padding: 40px 15px;
+}
+
+.recent-title{
+  font-size: 1.8rem;
+}
+
+.recent-text{
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.work-grid{
+  gap: 20px;
+}
+
+.flip-card{
+  width: 100%;
+  max-width: 320px;
+  height: 240px;
+}
+
+.flip-card-back{
+  padding: 20px;
+  text-align: center;
+}
+
+.flip-card-back h3{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.flip-card-back p{
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+.contact-box{
+    width: 100%;
+}
+input, textarea{
+    width: 90%;
+    padding: 8px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+textarea{
+    height: 150px;
+    width: 90%;
+}
+.linkedin-git{
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4%;
+    font-weight: bold;
+    cursor: pointer;  
+    margin-top: 20px;
+}
+.linkedin-git:hover, #submit:hover, .project-link:hover{
+    background-color: black;
+    color: white;
+}
+#submit{
+    width: 20%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+}
+.form-control{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+}
